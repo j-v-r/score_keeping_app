@@ -1,0 +1,48 @@
+html,
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+p {
+	text-align: center;
+}
+
+p.playing_to_display {
+	font-size: 2em;
+	margin-top: 1em;
+}
+
+p.scoreboard {
+	font-size: 3em;
+}
+
+button.add_score {
+	text-align: center;
+	display: block;
+	width: 250px;
+	margin: auto;
+}
+
+div.score_input {
+	text-align: center;
+	margin-top: 1em;
+}
+
+button.reset_btn {
+	display: block;
+	width: 250px;
+	margin: auto;
+	margin-top: 1em;
+}
+
+
+
+span.winner {
+	color: green;
+}
+
